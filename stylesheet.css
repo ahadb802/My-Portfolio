@@ -43,11 +43,8 @@
 .title {
   width: 327px;
   margin: 0;
-
-  /* Neutrals/N600 */
-  font-family: 'Poppins', 'Times New Roman', Times, serif;
-  
   font-style: normal;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-weight: 800;
   font-size: 40px;
   line-height: 52px;
@@ -56,32 +53,19 @@
 
 .about {
   width: 327px;
-
-  /* Body / 2 */
-  font-family: 'Poppins', 'Times New Roman', Times, serif;
-  
   font-style: normal;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
-  /* or 150% */
-
-
-  /* Neutrals/N600 */
-
   color: #344563;
 }
 
 .title2 {
   width: 130px;
   height: 24px;
-
-  /* Body / 2 - Bolder */
-
-  font-family: 'Poppins', 'Times New Roman', Times, serif;
-  
   font-style: normal;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
