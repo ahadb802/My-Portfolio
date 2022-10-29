@@ -2,7 +2,12 @@
   box-sizing: border-box;
   background: #e5e5e5;
 }
-
+button:hover {
+  border: 1px solid #0099cc;
+  background-color: #00aacc;
+  color: #ffffff;
+  padding: 5px 10px;
+}
 .header {
   background: white;
   max-width: 375px;
@@ -507,6 +512,9 @@
   line-height: 24px;
   color: #7f8cff;
 }
+.about-container a{
+  text-decoration-line:none ;
+}
 
 .media-icons1 {
   background-color: transparent;
@@ -516,11 +524,12 @@
   gap: 20px;
   list-style: none;
   margin-top: 16px;
-  margin-left: 10px;
-  margin-bottom: 12px;
-  width: 170.17px;
-  height: 20px;
-  padding-left: 0;
+  margin-left: 0px;
+  margin-bottom: 0px;
+flex-direction: row;
+padding: 0px;
+width: 200px;
+height: 40px;
 }
 
 .media-icons1 img {
@@ -541,6 +550,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 12px;
   padding: 12px;
   gap: 10px;
   width: 165px;
