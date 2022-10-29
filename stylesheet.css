@@ -538,9 +538,6 @@
 .about-container button {
   box-sizing: border-box;
   background-color: transparent;
-
-  /* Auto layout */
-
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -548,27 +545,15 @@
   gap: 10px;
   width: 165px;
   height: 48px;
-
-  /* Primary/B400 */
-
   border: 1px solid #6070ff;
   border-radius: 8px;
-
-  /* Button /Normal */
-
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-
-  /* identical to box height, or 141% */
-
   text-align: center;
   letter-spacing: 0.03em;
-
-  /* Primary/B500 */
-
   color: #396df2;
 }
 
@@ -614,18 +599,11 @@
   width: 237px;
   left: 12px;
   right: 78px;
-
-
-  /* Body / 1 - Bolder */
-
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-
-  /* identical to box height, or 120% */
-
   display: flex;
   align-items: center;
   color: #000;
@@ -651,9 +629,6 @@
 .skill-2 ul {
   width: 303px;
   height: 66.72px;
-
-  /* Neutrals/N10 */
-
   background: #f7f7f9;
   border-radius: 8px;
 }
@@ -664,8 +639,6 @@
   list-style: none;
   padding: 12px;
   align-items: center;
-
-  /* Neutrals/N10 */
 }
 
 .skill-3 li {
@@ -677,22 +650,13 @@
   height: 24px;
   left: 76px;
   right: 12px;
-
-  /* Body / 3 - Bolder */
-
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-
-  /* or 133% */
-
   display: flex;
   align-items: center;
-
-  /* Neutrals/N700 */
-
   color: #253858;
 }
 
@@ -713,17 +677,11 @@
   align-items: center;
   width: 327px;
   height: 72px;
-
-  /* Body / 1 - Bolder */
-
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-
-  /* identical to box height, or 120% */
-
   color: #000;
   padding-left: 0;
   border: 1px;
@@ -739,18 +697,11 @@
   width: 237px;
   left: 12px;
   right: 78px;
-
-
-  /* Body / 1 - Bolder */
-
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-
-  /* identical to box height, or 120% */
-
   padding-left: 12px;
   display: flex;
   align-items: center;
