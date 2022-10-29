@@ -433,7 +433,6 @@
   height: 48px;
   left: 0;
 
-
   /* Primary/B400 */
 
   border: 1px solid #6070ff;
@@ -451,6 +450,7 @@
 
 .about-my-self {
   background-image: url("./images/Base.png");
+  background-repeat: no-repeat;
   margin-top: 114px;
   padding-top: 114px;
   padding-right: 14px;
@@ -465,25 +465,16 @@
 }
 
 .about-title {
-  /* Primary Text */
-
   width: 327px;
   height: 101px;
-
-  /* Header / 2 */
   margin: 0;
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-
-  /* or 130% */
-
   display: flex;
   align-items: center;
-
-  /* Neutrals/N800 */
   background-color: transparent;
   color: #172b4d;
 }
@@ -495,20 +486,11 @@
   margin-top: 12px;
   margin-bottom: 0;
   margin-right: 0;
-
-  /* Body / 2 */
-
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
-  /* or 150% */
-
-
-  /* Neutrals/N600 */
-
   color: #344563;
 }
 
@@ -518,20 +500,11 @@
   height: 24px;
   margin-top: 12px;
   margin-bottom: 0;
-
-  /* Body / 2 - Bolder */
-
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-
-  /* identical to box height, or 150% */
-
-
-  /* Primary/B300 */
-
   color: #7f8cff;
 }
 
@@ -777,6 +750,7 @@
   line-height: 24px;
 
   /* identical to box height, or 120% */
+
   padding-left: 12px;
   display: flex;
   align-items: center;
