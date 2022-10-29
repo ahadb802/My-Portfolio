@@ -2,12 +2,14 @@
   box-sizing: border-box;
   background: #e5e5e5;
 }
+
 button:hover {
-  border: 1px solid #0099cc;
-  background-color: #00aacc;
-  color: #ffffff;
+  border: 1px solid #09c;
+  background-color: #0ac;
+  color: #fff;
   padding: 5px 10px;
 }
+
 .header {
   background: white;
   max-width: 375px;
@@ -512,8 +514,9 @@ button:hover {
   line-height: 24px;
   color: #7f8cff;
 }
-.about-container a{
-  text-decoration-line:none ;
+
+.about-container a {
+  text-decoration-line: none;
 }
 
 .media-icons1 {
@@ -524,12 +527,12 @@ button:hover {
   gap: 20px;
   list-style: none;
   margin-top: 16px;
-  margin-left: 0px;
-  margin-bottom: 0px;
-flex-direction: row;
-padding: 0px;
-width: 200px;
-height: 40px;
+  margin-left: 0;
+  margin-bottom: 0;
+  flex-direction: row;
+  padding: 0;
+  width: 200px;
+  height: 40px;
 }
 
 .media-icons1 img {
