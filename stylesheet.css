@@ -720,3 +720,91 @@ button:hover {
   align-items: center;
   color: #000;
 }
+
+.contact-me form {
+  background-color: transparent;
+  margin-top: 87px;
+}
+
+form{
+  display: flex;
+  flex-direction:column;
+  margin-top: 87px;
+  background-color: transparent;
+}
+
+form input{
+height: 48px;
+width: 327px;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+padding: 15px 38px 15px 16px;
+margin-bottom: 20px;
+background-color: #fff;
+border: 1px solid #cfd8dc;
+border-radius: 8px;
+}
+
+::placeholder{
+  height: 18px;
+  left: 16px;
+  right: 38px;
+  top: calc(50% - 18px/2);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+}
+
+.msg{
+height: 170px;
+width: 327px;
+padding-left: 16px;
+padding-right: 38px;
+padding-top: 15px;
+padding-bottom: 15px;
+text-align: initial;
+background-color: #FFFFFF;
+border: 1px solid #CFD8DC;
+border-radius: 8px;
+margin-bottom: 22px;
+}
+
+.msg::placeholder{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #b3bac5;
+}
+
+form button{
+padding: 12px 16px;
+width: 140px;
+height: 48px;
+display: flex;
+flex-direction: row;
+align-items: center;
+text-align: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #6070ff;
+background: #fff;
+border-radius: 8px;
+border-color: transparent;
+
+}
+.Ellipse-12{
+  width: 21px;
+height: 21px;
+margin: 55px 201px 27px 153px;
+}
