@@ -14,18 +14,31 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <header class="header">
-        <a href="#" class="logo">A.Ahad</a>
+    <header>
+        <div class="header">
+        <div class="logo">
+        <a href="#">A.Ahad</a>
+        </div>
         <nav >
+            <ul>
+                <li><a href="#">Portfolio</a>
+                </li>
+                <li><a href="#">About</a></li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
             <a href="#" class="menu-icon"><img src="./images/Icon-Menu.png" alt="icon"></a>
         </nav>
+    </div>
     </header>
-    <section class="Main-section">
-        <article class="head">
+     <section class="Main-section">
         <div class="Headline-container">
-            <h1 class="title">I’m A.Ahad Glad to see you!</h1>
-            <p class="about">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-                <h2 class="title2">LET’S CONNECT</h2>
+
+               <h1 class="title">I’m A.Ahad <br> Glad to see you!</h1>
+               <p class="about">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+            <div>
+               <h2 class="title2">LET’S CONNECT</h2>
                 <ul class="media-icons">
                     <li>
                         <a href=""><img src="./images/twiter.svg" alt=""></a>
@@ -43,11 +56,13 @@
                         <a href=""><img src="./images/v.svg" alt=""></a>
                     </li> 
                 </ul>
-        </div>
-    </article>
-    <article>
+            </div>
+            </div>
+    </section>
+     <article class="cards">
         <div class="container">
-            <a href="#" class="project-pics"><img class="project-pics" src="./images/Snapshoot Portfolio.png" alt=""></a>
+            <a href="#" class="mobile-pic" ><img class="project-pics" src="./images/Snapshoot Portfolio.png" alt=""></a>
+            <a href="#" class="desktop-pic" ><img class="project-pics" src="./images/1.png" alt=""></a>
            <div class="flow">
             <h3 class="project-title">Tonic</h3>
             <ul class="info">
@@ -70,30 +85,31 @@
         <p class="info-about">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
             <ul class="info-2">
                 <li>
-                    <button class="button-1">html</button>
+                    <button type="submit" class="button-1">html</button>
                         
                 </li>
                 <li>
-                    <button class="button-2">css</button>
+                    <button type="submit" class="button-2">css</button>
                         
                     
                 </li>
                 <li>
-                    <button class="button-3">Javascript</button>
+                    <button type="submit" class="button-3">Javascript</button>
                         
                     
                 </li>
             </ul>
-                <button class="button-4">See Project</button>
+                <button type="submit" class="button-4">See Project</button>
           
         </div>
         
         </div>
     </article>
-    <article>
+    <article class="cards">
         <div class="container-1">
-            <a href="#" class="project-pics"><img class="project-pics" src="./images/Snapshoot Portfolio (1).png" alt=""></a>
-           <div class="flow">
+            <a href="#" class="mobile-pic" ><img class="project-pics" src="./images/Snapshoot Portfolio (1).png" alt=""></a>
+            <a href="#" class="desktop-pic" ><img class="project-pics" src="./images/2d.png" alt=""></a>
+           <div class="flow-1">
             <h3 class="project-title-1">Multi-Post <br> Stories</h3>
             <ul class="info">
                 <li class="conopy-li">
@@ -135,9 +151,10 @@
         
         </div>
     </article>
-    <article>
+    <article class="cards">
         <div class="container-2">
-            <a href="#" class="project-pics"><img class="project-pics" src="./images/Snapshoot Portfolio (2).png" alt=""></a>
+            <a href="#" class="mobile-pic" ><img class="project-pics" src="./images/Snapshoot Portfolio (3).png" alt=""></a>
+            <a href="#" class="desktop-pic" ><img class="project-pics" src="./images/3d.png" alt=""></a>
            <div class="flow">
             <h3 class="project-title">Tonic</h3>
             <ul class="info">
@@ -180,10 +197,11 @@
         
         </div>
     </article>
-    <article>
+    <article class="cards">
         <div class="container-1">
-            <a href="#" class="project-pics"><img class="project-pics" src="./images/Snapshoot Portfolio (3).png" alt=""></a>
-           <div class="flow">
+            <a href="#" class="mobile-pic" ><img class="project-pics" src="./images/Snapshoot Portfolio (3).png" alt=""></a>
+            <a href="#" class="desktop-pic" ><img class="project-pics" src="./images/4d.png" alt=""></a>
+           <div class="flow-1">
             <h3 class="project-title-1">Multi-Post <br> Stories</h3>
             <ul class="info">
                 <li class="conopy-li">
@@ -225,8 +243,8 @@
         
         </div>
     </article>
-    <article>
-        <div class="about-my-self">
+    <article class="card-1" >
+    <div class="about-my">
         <div class="about-container">
             <h1 class="about-title">About <br> Myself</h1>
             <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -249,7 +267,7 @@
                 </li> 
             </ul>
             <Button class="button-7">Get my resume</BUtton>
-        </div>
+            </div>
         <div class="skills">
             <ul class="skill-1">
                 <li>
@@ -313,22 +331,23 @@
                 </li>
             </ul>
     </div>
-</article>
-</section>
-    <footer class="foter">
-    <!-- Done by abdul ahad -->
+</div>
+    </article>
+    <footer>
     <img  class="bg-image" src="./images/contact-form-shapes-mobile@2x.png" alt="">
     <div class="contact-me">
+        <div>
         <h1>Contact me</h1>
         <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-</div>
-<!-- Done by my coding partner -->
+    </div>
+
 <form action="https://formspree.io/f/mrgdollz" method="POST">
     <input id="name" name="text" type="text" placeholder="Ahad" minlength="1" maxlength="30" required>
     <input id="email" name="email" type="email" placeholder="Ahad@gmail.com" minlength="1" maxlength="30" required>
     <textarea class="msg" name="message" type="text" placeholder="Write your message here" minlength="1" maxlength="500" required></textarea>
     <button class="submit-b" name="button" type="submit">Get in touch</button>
 </form>
-</footer>
+</div>
+</footer> 
 </body>
 </html>
