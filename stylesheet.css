@@ -60,7 +60,19 @@ button:active {
   color: #fff;
 }
 
-/* Done with me partner */
+/* Done by my partner */
+
+.logo{
+  animation: rotateZ 5s;
+}
+
+@keyframes rotateZ {
+  to {
+    transform: rotateZ(-3240deg);
+  }
+}
+
+/* Done by me */
 
 .container:hover{
   transform: scale(0.8);
