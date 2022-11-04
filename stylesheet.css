@@ -4,7 +4,6 @@
   margin: 0;
 }
 
-
 img {
   background-color: transparent;
 }
@@ -37,27 +36,30 @@ div {
   background-color: transparent;
 }
 
-
-button:hover{
-  background: #6070FF;
+button:hover {
+  background: #6070ff;
   color: white;
 }
-button:active{
-  background-color: #2230D2;
-  color: #FFFFFF;
+
+button:active {
+  background-color: #2230d2;
+  color: #fff;
 }
-.about-container button{
+
+.about-container button {
   background-color: transparent;
 }
 
-.about-container button:hover{
-  background: #6070FF;
+.about-container button:hover {
+  background: #6070ff;
   color: white;
 }
-.about-container button:active{
-  background-color: #2230D2;
-  color: #FFFFFF;
+
+.about-container button:active {
+  background-color: #2230d2;
+  color: #fff;
 }
+
 .header {
   display: flex;
   align-items: center;
@@ -905,7 +907,6 @@ button:active{
     border-radius: 8px;
     border-color: transparent;
   }
-
 }
 
 @media screen and (max-width: 768px) {
