@@ -4,12 +4,6 @@
   margin: 0;
 }
 
-button:hover {
-  border: 1px solid #09c;
-  background-color: #0ac;
-  color: #fff;
-  padding: 5px 10px;
-}
 
 img {
   background-color: transparent;
@@ -43,14 +37,27 @@ div {
   background-color: transparent;
 }
 
-.cards button {
+
+button:hover{
+  background: #6070FF;
+  color: white;
+}
+button:active{
+  background-color: #2230D2;
+  color: #FFFFFF;
+}
+.about-container button{
   background-color: transparent;
 }
 
-.card-1 button {
-  background-color: transparent;
+.about-container button:hover{
+  background: #6070FF;
+  color: white;
 }
-
+.about-container button:active{
+  background-color: #2230D2;
+  color: #FFFFFF;
+}
 .header {
   display: flex;
   align-items: center;
@@ -465,6 +472,7 @@ div {
   }
 
   .button-4 {
+    background-color: transparent;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -898,12 +906,6 @@ div {
     border-color: transparent;
   }
 
-  .submit-b:hover {
-    border: 1px solid #09c;
-    background-color: #0ac;
-    color: #fff;
-    padding: 5px 10px;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1722,13 +1724,6 @@ div {
     background: #fff;
     border-radius: 8px;
     border-color: transparent;
-  }
-
-  .submit-b:hover {
-    border: 1px solid #09c;
-    background-color: #0ac;
-    color: #fff;
-    padding: 5px 10px;
   }
 
   .bg-image {
