@@ -60,6 +60,36 @@ button:active {
   color: #fff;
 }
 
+/* Done by me */
+
+.container:hover {
+  transform: scale(0.8);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.container-1:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  transform: scale(0.8);
+}
+
+.container-2:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  transform: scale(0.8);
+}
+
+/* Done by my partner */
+
+.logo {
+  animation: rotateZ 5s;
+  background-color: transparent;
+}
+
+@keyframes rotateZ {
+  to {
+    transform: rotateZ(-3240deg);
+  }
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -73,10 +103,6 @@ button:active {
 
 .header a {
   text-decoration: none;
-  background-color: transparent;
-}
-
-.logo {
   background-color: transparent;
 }
 
