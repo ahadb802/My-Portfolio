@@ -13,9 +13,7 @@
 
 ## Live Demo 
 
-You can check my website by open the link below
-
-https://ahadb802.github.io/My-Portfolio/
+N/A
 
 ## Get Started
 
