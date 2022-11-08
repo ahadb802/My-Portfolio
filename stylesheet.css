@@ -1,7 +1,10 @@
 * {
   box-sizing: border-box;
-  background: #e5e5e5;
+  background: white;
   margin: 0;
+}
+main{
+  background: #e5e5e5;
 }
 
 img {
@@ -170,7 +173,7 @@ button:active {
   }
 
   .title {
-    height: 122px;
+    height: auto;
     width: 80%;
     background: transparent;
     font-style: normal;
@@ -192,19 +195,20 @@ button:active {
     line-height: 28px;
     color: #344563;
     background-color: transparent;
-    height: 120px;
+    height: auto;
   }
 
   .title2 {
     width: 90%;
-    height: 24px;
+    height: auto;
+    margin-top: 12px;
     background-color: transparent;
     font-style: normal;
     font-family: 'Poppins', 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: 001aff;
+    color: #001aff;
   }
 
   .media-icons {
@@ -313,7 +317,7 @@ button:active {
   .project-title {
     background: transparent;
     width: 100%;
-    height: 46px;
+    height: auto;
     margin: 0;
     font-family: 'Poppins', 'Times New Roman', Times, serif;
     font-style: normal;
@@ -326,7 +330,7 @@ button:active {
   .project-title-1 {
     background: transparent;
     width: 100%;
-    height: 46px;
+    height: auto;
     margin: 0;
     font-family: 'Poppins', 'Times New Roman', Times, serif;
     font-style: normal;
@@ -347,7 +351,7 @@ button:active {
     gap: 12px;
     list-style: none;
     width: 100%;
-    height: 40px;
+    height: auto;
     padding-right: 0;
     padding-left: 0;
   }
@@ -391,7 +395,7 @@ button:active {
 
   .info-about {
     width: 100%;
-    height: 50px;
+    height: auto;
     margin-top: 12px;
 
     /* Body / 3 */
@@ -418,7 +422,7 @@ button:active {
     padding: 0;
     gap: 8px;
     width: 203px;
-    height: 24px;
+    height: auto;
     margin-top: 24px;
   }
 
@@ -561,7 +565,7 @@ button:active {
 
   .about-title {
     width: 100%;
-    height: 114px;
+    height: auto;
     margin: 0;
     font-family: 'Poppins', 'Times New Roman', Times, serif;
     font-style: normal;
@@ -575,7 +579,7 @@ button:active {
 
   .about-container p {
     width: 100%;
-    height: 102px;
+    height: auto;
     margin-top: 12px;
     margin-bottom: 0;
     margin-right: 0;
@@ -585,19 +589,18 @@ button:active {
     font-size: 16px;
     line-height: 24px;
     color: #344563;
-    overflow: hidden;
   }
 
   .about-container h2 {
     width: 100%;
-    height: 24px;
+    height: auto;
     margin-top: 12px;
     font-family: 'Poppins', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: 001aff;
+    color: #001aff;
   }
 
   .about-container a {
@@ -615,7 +618,7 @@ button:active {
     flex-direction: row;
     padding: 10px;
     width: 80%;
-    height: 40px;
+    height: auto;
   }
 
   .about-container button {
@@ -823,7 +826,7 @@ button:active {
     padding: 0;
     background-color: transparent;
     width: 100%;
-    height: 56px;
+    height: auto;
 
     /* Header / 2 */
 
@@ -846,7 +849,7 @@ button:active {
     margin: 12px 0 0 0;
     background-color: transparent;
     width: 100%;
-    height: 102px;
+    height: auto;
     left: 24px;
     top: 4802px;
     font-family: 'Poppins', 'Times New Roman', Times, serif;
@@ -999,7 +1002,7 @@ button:active {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: 001aff;
+    color: #001aff;
   }
 
   .media-icons {
@@ -1409,7 +1412,7 @@ button:active {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: 001aff;
+    color: #001aff;
   }
 
   .about-container a {
