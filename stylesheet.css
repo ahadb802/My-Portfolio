@@ -113,7 +113,7 @@ button:active {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  color: #6070ff;
+  color: #303dab;
 }
 
 .header nav {
@@ -141,6 +141,10 @@ button:active {
   border-radius: 0 0 0 100px;
   background-color: white;
   background-repeat: no-repeat;
+  
+}
+.Main-section a{
+  text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -200,7 +204,7 @@ button:active {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7f8cff;
+    color: 001aff;
   }
 
   .media-icons {
@@ -433,7 +437,7 @@ button:active {
 
     /* Primary/B400 */
 
-    color: #6070ff;
+    color: #0015d1;
     border: 0;
     padding: 4px 12px;
     width: 53px;
@@ -462,7 +466,7 @@ button:active {
 
     /* Primary/B400 */
 
-    color: #6070ff;
+    color: #0015d1;
     padding: 4px 12px;
     width: 45px;
     height: 24px;
@@ -490,7 +494,7 @@ button:active {
 
     /* Primary/B400 */
 
-    color: #6070ff;
+    color: #0015d1;
     align-items: center;
     padding: 4px 12px;
     width: 89px;
@@ -593,7 +597,7 @@ button:active {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7f8cff;
+    color: 001aff;
   }
 
   .about-container a {
@@ -786,7 +790,7 @@ button:active {
     height: 846px;
     border-radius: 100px 0 0 0;
     border-color: white;
-    background: #6070ff;
+    background: #303dab;
     margin: 0;
     flex-direction: column;
     align-items: center;
@@ -995,7 +999,7 @@ button:active {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7f8cff;
+    color: 001aff;
   }
 
   .media-icons {
@@ -1405,7 +1409,7 @@ button:active {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7f8cff;
+    color: 001aff;
   }
 
   .about-container a {
@@ -1605,7 +1609,7 @@ button:active {
     height: 846px;
     border-radius: 100px 0 0 0;
     border-color: white;
-    background: #6070ff;
+    background: #303dab;
     margin: 0;
     flex-direction: column;
     align-items: center;
