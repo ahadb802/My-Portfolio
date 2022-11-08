@@ -3,7 +3,8 @@
   background: white;
   margin: 0;
 }
-main{
+
+main {
   background: #e5e5e5;
 }
 
@@ -144,9 +145,9 @@ button:active {
   border-radius: 0 0 0 100px;
   background-color: white;
   background-repeat: no-repeat;
-  
 }
-.Main-section a{
+
+.Main-section a {
   text-decoration: none;
 }
 
