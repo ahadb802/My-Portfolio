@@ -41,7 +41,7 @@ div {
 }
 
 button:hover {
-  background: #6070ff;
+  background: #2d3cbb;
   color: white;
 }
 
@@ -450,7 +450,7 @@ button:active {
 
     /* Primary/B50 */
 
-    background-color: #ebebff;
+    background-color: #f3f3f8;
     border-radius: 8px;
   }
 
@@ -478,7 +478,7 @@ button:active {
 
     /* Primary/B50 */
 
-    background-color: #ebebff;
+    background-color: #f3f3f8;
     border-radius: 8px;
   }
 
@@ -504,7 +504,7 @@ button:active {
     padding: 4px 12px;
     width: 89px;
     height: 24px;
-    background: #ebebff;
+    background: #f3f3f8;
     border-radius: 8px;
   }
 
