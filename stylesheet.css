@@ -45,11 +45,6 @@ button:hover {
   color: white;
 }
 
-button:active {
-  background-color: #2230d2;
-  color: #fff;
-}
-
 .about-container button {
   background-color: transparent;
 }
@@ -62,6 +57,11 @@ button:active {
 .about-container button:active {
   background-color: #2230d2;
   color: #fff;
+}
+
+.submit-b:hover {
+  background: rgb(255, 213, 1);
+  color: #1c2786;
 }
 
 /* Done by me */
@@ -936,7 +936,7 @@ button:active {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #212ea2;
     background: #fff;
     border-radius: 8px;
     border-color: transparent;
