@@ -1,7 +1,11 @@
 * {
   box-sizing: border-box;
-  background: #e5e5e5;
+  background: white;
   margin: 0;
+}
+
+main {
+  background: #e5e5e5;
 }
 
 img {
@@ -37,13 +41,8 @@ div {
 }
 
 button:hover {
-  background: #6070ff;
+  background: #2d3cbb;
   color: white;
-}
-
-button:active {
-  background-color: #2230d2;
-  color: #fff;
 }
 
 .about-container button {
@@ -58,6 +57,11 @@ button:active {
 .about-container button:active {
   background-color: #2230d2;
   color: #fff;
+}
+
+.submit-b:hover {
+  background: rgb(255, 213, 1);
+  color: #1c2786;
 }
 
 /* Done by me */
@@ -113,7 +117,7 @@ button:active {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  color: #6070ff;
+  color: #303dab;
 }
 
 .header nav {
@@ -143,6 +147,10 @@ button:active {
   background-repeat: no-repeat;
 }
 
+.Main-section a {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
   .header img {
     display: none;
@@ -166,7 +174,7 @@ button:active {
   }
 
   .title {
-    height: 122px;
+    height: auto;
     width: 80%;
     background: transparent;
     font-style: normal;
@@ -188,19 +196,20 @@ button:active {
     line-height: 28px;
     color: #344563;
     background-color: transparent;
-    height: 120px;
+    height: auto;
   }
 
   .title2 {
     width: 90%;
-    height: 24px;
+    height: auto;
+    margin-top: 12px;
     background-color: transparent;
     font-style: normal;
     font-family: 'Poppins', 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7f8cff;
+    color: #001aff;
   }
 
   .media-icons {
@@ -309,7 +318,7 @@ button:active {
   .project-title {
     background: transparent;
     width: 100%;
-    height: 46px;
+    height: auto;
     margin: 0;
     font-family: 'Poppins', 'Times New Roman', Times, serif;
     font-style: normal;
@@ -322,7 +331,7 @@ button:active {
   .project-title-1 {
     background: transparent;
     width: 100%;
-    height: 46px;
+    height: auto;
     margin: 0;
     font-family: 'Poppins', 'Times New Roman', Times, serif;
     font-style: normal;
@@ -343,7 +352,7 @@ button:active {
     gap: 12px;
     list-style: none;
     width: 100%;
-    height: 40px;
+    height: auto;
     padding-right: 0;
     padding-left: 0;
   }
@@ -387,7 +396,7 @@ button:active {
 
   .info-about {
     width: 100%;
-    height: 50px;
+    height: auto;
     margin-top: 12px;
 
     /* Body / 3 */
@@ -414,7 +423,7 @@ button:active {
     padding: 0;
     gap: 8px;
     width: 203px;
-    height: 24px;
+    height: auto;
     margin-top: 24px;
   }
 
@@ -433,7 +442,7 @@ button:active {
 
     /* Primary/B400 */
 
-    color: #6070ff;
+    color: #0015d1;
     border: 0;
     padding: 4px 12px;
     width: 53px;
@@ -441,7 +450,7 @@ button:active {
 
     /* Primary/B50 */
 
-    background-color: #ebebff;
+    background-color: #f3f3f8;
     border-radius: 8px;
   }
 
@@ -462,14 +471,14 @@ button:active {
 
     /* Primary/B400 */
 
-    color: #6070ff;
+    color: #0015d1;
     padding: 4px 12px;
     width: 45px;
     height: 24px;
 
     /* Primary/B50 */
 
-    background-color: #ebebff;
+    background-color: #f3f3f8;
     border-radius: 8px;
   }
 
@@ -490,12 +499,12 @@ button:active {
 
     /* Primary/B400 */
 
-    color: #6070ff;
+    color: #0015d1;
     align-items: center;
     padding: 4px 12px;
     width: 89px;
     height: 24px;
-    background: #ebebff;
+    background: #f3f3f8;
     border-radius: 8px;
   }
 
@@ -557,7 +566,7 @@ button:active {
 
   .about-title {
     width: 100%;
-    height: 114px;
+    height: auto;
     margin: 0;
     font-family: 'Poppins', 'Times New Roman', Times, serif;
     font-style: normal;
@@ -571,7 +580,7 @@ button:active {
 
   .about-container p {
     width: 100%;
-    height: 102px;
+    height: auto;
     margin-top: 12px;
     margin-bottom: 0;
     margin-right: 0;
@@ -581,19 +590,18 @@ button:active {
     font-size: 16px;
     line-height: 24px;
     color: #344563;
-    overflow: hidden;
   }
 
   .about-container h2 {
     width: 100%;
-    height: 24px;
+    height: auto;
     margin-top: 12px;
     font-family: 'Poppins', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7f8cff;
+    color: #001aff;
   }
 
   .about-container a {
@@ -611,7 +619,7 @@ button:active {
     flex-direction: row;
     padding: 10px;
     width: 80%;
-    height: 40px;
+    height: auto;
   }
 
   .about-container button {
@@ -786,7 +794,7 @@ button:active {
     height: 846px;
     border-radius: 100px 0 0 0;
     border-color: white;
-    background: #6070ff;
+    background: #303dab;
     margin: 0;
     flex-direction: column;
     align-items: center;
@@ -819,7 +827,7 @@ button:active {
     padding: 0;
     background-color: transparent;
     width: 100%;
-    height: 56px;
+    height: auto;
 
     /* Header / 2 */
 
@@ -842,7 +850,7 @@ button:active {
     margin: 12px 0 0 0;
     background-color: transparent;
     width: 100%;
-    height: 102px;
+    height: auto;
     left: 24px;
     top: 4802px;
     font-family: 'Poppins', 'Times New Roman', Times, serif;
@@ -928,7 +936,7 @@ button:active {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #212ea2;
     background: #fff;
     border-radius: 8px;
     border-color: transparent;
@@ -995,7 +1003,7 @@ button:active {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7f8cff;
+    color: #001aff;
   }
 
   .media-icons {
@@ -1405,7 +1413,7 @@ button:active {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7f8cff;
+    color: #001aff;
   }
 
   .about-container a {
@@ -1605,7 +1613,7 @@ button:active {
     height: 846px;
     border-radius: 100px 0 0 0;
     border-color: white;
-    background: #6070ff;
+    background: #303dab;
     margin: 0;
     flex-direction: column;
     align-items: center;
