@@ -968,7 +968,8 @@ button:hover {
   #menuBox {
     width: 0;
     height: 0;
-    background: rgba(57, 75, 242, 0.9);
+    background: rgba(20, 39, 211, 0.7);
+    backdrop-filter: blur(4px);
     position: fixed;
     top: 0;
     right: 0;
@@ -985,7 +986,7 @@ button:hover {
   .header ul {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
     padding-top: 50px;
   }
 
