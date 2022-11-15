@@ -15,25 +15,28 @@
 </head>
 <body>
     <header>
-        <div class="header">
+        <div class="header" id="myHeader">
         <div class="logo">
         <a href="#">A.Ahad</a>
         </div>
-        <nav >
+        <img src="./images/Icon-Menu.png" alt="hambuger-menu" id="menuIcon" class="menu-icon">
+        <nav id="menuBox">
             <ul>
-                <li><a href="#">Portfolio</a>
+                <li class="nav-list">
+                    <a href="#main-section" class="nav-links">Portfolio</a>
                 </li>
-                <li><a href="#">About</a></li>
-                <li>
-                    <a href="#">Contact</a>
+                <li class="nav-list">
+                    <a href="#card-1" class="nav-links">About</a>
+                </li>
+                <li class="nav-list">
+                    <a href="#contact-me" class="nav-links" >Contact</a>
                 </li>
             </ul>
-            <a href="#" class="menu-icon"><img src="./images/Icon-Menu.png" alt="hambuger-menu"></a>
         </nav>
     </div>
     </header>
     <main>
-     <section class="Main-section">
+     <section class="Main-section" id="main-section">
         <div class="Headline-container">
 
                <h1 class="title">I’m A.Ahad <br> Glad to see you!</h1>
@@ -132,21 +135,21 @@
         <p class="info-about">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
             <ul class="info-2">
                 <li>
-                    <button class="button-1">html</button>
+                    <button class="button-1" type="submit">html</button>
                         
                 </li>
                 <li>
-                    <button class="button-2">css</button>
+                    <button class="button-2" type="submit">css</button>
                         
                     
                 </li>
                 <li>
-                    <button class="button-3">Javascript</button>
+                    <button class="button-3" type="submit">Javascript</button>
                         
                     
                 </li>
             </ul>
-                <button class="button-4">See Project</button>
+                <button class="button-4" type="submit">See Project</button>
           
         </div>
         
@@ -178,21 +181,21 @@
         <p class="info-about">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
             <ul class="info-2">
                 <li>
-                    <button class="button-1">html</button>
+                    <button class="button-1" type="submit">html</button>
                         
                 </li>
                 <li>
-                    <button class="button-2">css</button>
+                    <button class="button-2" type="submit">css</button>
                         
                     
                 </li>
                 <li>
-                    <button class="button-3">Javascript</button>
+                    <button class="button-3" type="submit">Javascript</button>
                         
                     
                 </li>
             </ul>
-                <button class="button-4">See Project</button>
+                <button class="button-4" type="submit">See Project</button>
           
         </div>
         
@@ -224,27 +227,27 @@
         <p class="info-about">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
             <ul class="info-2">
                 <li>
-                    <button class="button-1">html</button>
+                    <button class="button-1" type="submit">html</button>
                         
                 </li>
                 <li>
-                    <button class="button-2">css</button>
+                    <button class="button-2" type="submit">css</button>
                         
                     
                 </li>
                 <li>
-                    <button class="button-3">Javascript</button>
+                    <button class="button-3" type="submit">Javascript</button>
                         
                     
                 </li>
             </ul>
-                <button class="button-4">See Project</button>
+                <button class="button-4" type="submit">See Project</button>
           
         </div>
         
         </div>
     </article>
-    <article class="card-1" >
+    <article class="card-1" id="card-1">
     <div class="about-my">
         <div class="about-container">
             <h1 class="about-title">About <br> Myself</h1>
@@ -267,7 +270,7 @@
                     <a href="https://github.com/ahadb802/"><img src="images/m.png" alt="medium-link to see Abdul medium account"></a>
                 </li> 
             </ul>
-            <button class="button-7">Get my resume</button>
+            <button class="button-7" type="submit">Get my resume</button>
             
             </div>
         <div class="skills">
@@ -336,7 +339,7 @@
 </div>
     </article>
     </main>
-    <footer>
+    <footer id="contact-me">
     <img  class="bg-image" src="images/contact-form-shapes-mobile@2x.png" alt="backgroud image">
     <div class="contact-me">
         <div>
@@ -352,5 +355,6 @@
 </form>
 </div>
 </footer> 
+<script src="index.js"></script>
 </body>
 </html>
