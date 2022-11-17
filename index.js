@@ -12,7 +12,7 @@ const livelink = document.querySelector('#live');
 const githublink = document.querySelector('#Source');
 const cardDirection = ['container', 'container-1', 'container-2', 'container-1'];
 const htr = document.getElementById('Project-details');
-const email = document.querySelector('#email');
+const emaill = document.querySelector('#email');
 
 // Storing DATA IN ARRAY FOR CARDS
 const arr = [
@@ -98,7 +98,7 @@ document.querySelector('#cancel').addEventListener('click', () => {
 });
 // checking validation for email
 document.querySelector('.submit-b').onclick = function () {
-  if (email.value !== email.value.toLowerCase()) {
+  if (emaill.value !== emaill.value.toLowerCase()) {
     overlay1.style.display = 'block';
   } else {
     overlay2.style.display = 'block';
@@ -134,4 +134,55 @@ function myFunction() {
     header.classList.remove('sticky');
   }
 }
+
+function saveForm(form) {
+  const f = JSON.stringify(form);
+  window.localStorage.setItem('form', f);
+}
+
+function getForm() {
+  const f = window.localStorage.getItem('form');
+  if (f) {
+    return JSON.parse(f);
+  }
+  return 0;
+}
+
+let name; let email; let comments;
+
+function handleChange() {
+  console.log('handleChange');
+  /*
+  get all values and store
+  first the easy ones
+  */
+  const form = {};
+  form.name = name.value;
+  form.email = email.value;
+  form.comments = comments.value;
+  // now store
+  saveForm(form);
+}
+function init() {
+  // get the dom objects one time
+  name = document.querySelector('#name');
+  email = document.querySelector('#email');
+  comments = document.querySelector('#comments');
+
+  // listen for input on all
+  const elems = Array.from(document.querySelectorAll('#mainForm input, #mainForm textarea'));
+  elems.forEach((e) => e.addEventListener('input', handleChange, false));
+  // do we have a cached form?
+  const cached = getForm();
+  if (cached) {
+    name.value = cached.name;
+    email.value = cached.email;
+    comments.value = cached.comments;
+  }
+  // final bit, on submit, clear cache
+  document.querySelector('#mainForm').addEventListener('submit', () => {
+    window.localStorage.removeItem('form');
+  }, false);
+}
 window.onscroll = function () { myFunction(); };
+document.addEventListener('DOMContentLoaded', init, false);
