@@ -3,15 +3,17 @@ const menuIcon = document.getElementById('menuIcon');
 const header = document.getElementById('myHeader');
 const sticky = header.offsetTop;
 const overlay = document.querySelector('#overlay');
+const overlay1 = document.querySelector('#overlay-1');
 const title = document.querySelector('.project-title');
 const dis = document.querySelector('.discription');
-const imge = document.querySelector('.project-pics');
+const imge = document.querySelector('.project-pics-1');
 const livelink = document.querySelector('#live');
 const githublink = document.querySelector('#Source');
 const cardDirection = ['container', 'container-1', 'container-2', 'container-1'];
 const htr = document.getElementById('Project-details');
-const clientsNav = document.getElementById('clients');
-const unorder = document.getElementById('overlay-ul');
+const email = document.getElementById('#email');
+
+// Storing DATA IN ARRAY FOR CARDS
 const arr = [
   {
     name: 'TONIC', dicsription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea", image: './images/1.png', technologies: ['html', 'css', 'Javascript'], client: ['CANOPY', 'Back End Dev', '2015'], live_version: 'https://ahadb802.github.io/My-Portfolio/', source: 'https://github.com/ahadb802/',
@@ -26,6 +28,8 @@ const arr = [
     name: 'Multi-Post Stories', dicsription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea", image: './images/4d.png', technologies: ['html', 'css', 'Javascript'], client: ['CANOPY', 'Back End Dev', '2015'], live_version: 'https://ahadb802.github.io/My-Portfolio/', source: 'https://github.com/ahadb802/',
   },
 ];
+
+// SHOWING DATA OF ARRAY FOR CARDS dynamically
 arr.forEach((item, index) => {
   htr.innerHTML += `<article class="cards">
  <div class="${cardDirection[index]}">
@@ -74,6 +78,8 @@ arr.forEach((item, index) => {
  </div>
  </article>`;
 });
+
+// SHOWING DATA OF ARRAY FOR Popupmenu dynamically
 document.querySelectorAll('.button-4').forEach((n, index) => {
   n.addEventListener('click', () => {
     title.innerText = arr[index].name;
@@ -85,43 +91,17 @@ document.querySelectorAll('.button-4').forEach((n, index) => {
   });
 });
 
-clientsNav.innerHTML += `<div id="clients">
-<ul class="info">
-    <li class="conopy-li">
-        <h3 class="canopy">${arr[0].client[0]}</h3>
-    </li>
-    <li class="couter-image">
-            <img class="couter-image" src="./images/Counter.png" alt=" ">
-    </li>
-    <li class="back-end-li">
-        <h3 class="back-end">${arr[1].client[1]}</h3>
-    </li>
-    <li class="couter-image">
-            <img class="couter-image" src="./images/Counter.png" alt=" ">
-    </li>
-    <li>
-        <h3 class="year">${arr[2].client[2]}</h3>
-    </li>
-</ul>
-</div>`;
-unorder.innerHTML += `<div id="overlay-ul">
-<ul class="info-3">
-    <li>
-        <button type="submit" class="button-1">${arr[0].technologies[0]}</button>
-            
-    </li>
-    <li>
-        <button type="submit" class="button-2">${arr[1].technologies[1]}</button>
-            
-        
-    </li>
-    <li>
-        <button type="submit" class="button-3">${arr[3].technologies[2]}</button>
-            
-        
-    </li>
-</ul>
-</div>`;
+// closing popup menu
+document.querySelector('#close-btn').addEventListener('click', () => {
+  overlay1.style.display = 'none';
+});
+
+document.querySelector('.submit-b').onclick = function () {
+  console.log(email.innerText);
+  if (email.innerText !== email.innerText.toLowerCase()) {
+    overlay1.style.display = 'block';
+  }
+};
 
 document.querySelector('#cancel').addEventListener('click', () => {
   overlay.style.display = 'none';
