@@ -26,7 +26,7 @@ const arr = [
   },
   {
     name: 'Multi-Post Stories', dicsription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea", image: './images/4d.png', technologies: ['html', 'css', 'Javascript'], client: ['CANOPY', 'Back End Dev', '2015'], live_version: 'https://ahadb802.github.io/My-Portfolio/', source: 'https://github.com/ahadb802/',
-  }
+  },
 ];
 
 // SHOWING DATA OF ARRAY FOR CARDS dynamically
