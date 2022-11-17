@@ -4,6 +4,7 @@ const header = document.getElementById('myHeader');
 const sticky = header.offsetTop;
 const overlay = document.querySelector('#overlay');
 const overlay1 = document.querySelector('#overlay-1');
+const overlay2 = document.querySelector('#overlay-2');
 const title = document.querySelector('.project-title');
 const dis = document.querySelector('.discription');
 const imge = document.querySelector('.project-pics-1');
@@ -11,7 +12,7 @@ const livelink = document.querySelector('#live');
 const githublink = document.querySelector('#Source');
 const cardDirection = ['container', 'container-1', 'container-2', 'container-1'];
 const htr = document.getElementById('Project-details');
-const email = document.getElementById('#email');
+const email = document.querySelector('#email');
 
 // Storing DATA IN ARRAY FOR CARDS
 const arr = [
@@ -92,20 +93,22 @@ document.querySelectorAll('.button-4').forEach((n, index) => {
 });
 
 // closing popup menu
-document.querySelector('#close-btn').addEventListener('click', () => {
-  overlay1.style.display = 'none';
-});
-
-document.querySelector('.submit-b').onclick = function () {
-  console.log(email.innerText);
-  if (email.innerText !== email.innerText.toLowerCase()) {
-    overlay1.style.display = 'block';
-  }
-};
-
 document.querySelector('#cancel').addEventListener('click', () => {
   overlay.style.display = 'none';
 });
+// checking validation for email
+document.querySelector('.submit-b').onclick = function () {
+  if (email.value !== email.value.toLowerCase()) {
+    overlay1.style.display = 'block';
+  } else {
+    overlay2.style.display = 'block';
+  }
+};
+// closing menu
+document.querySnelectorAll('#close-btn').forEach((n) => n.addEventListener('click', () => {
+  overlay2.style.display = 'none';
+  overlay1.style.display = 'none';
+}));
 menuIcon.onclick = function () {
   menuBox.classList.toggle('open-menu');
   if (menuBox.classList.contains('open-menu')) {
@@ -131,4 +134,4 @@ function myFunction() {
     header.classList.remove('sticky');
   }
 }
-window.onscroll = function () { myFunction(); };
+window.onscroll = function () { myFunction(); };
