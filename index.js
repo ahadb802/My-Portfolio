@@ -134,4 +134,4 @@ function myFunction() {
     header.classList.remove('sticky');
   }
 }
-window.onscroll = function () { myFunction(); };
+window.onscroll = function () { myFunction(); };
