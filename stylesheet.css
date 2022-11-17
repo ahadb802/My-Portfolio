@@ -40,6 +40,17 @@ div {
   background-color: transparent;
 }
 
+.project-pics-1 {
+  width: 80%;
+  height: 80%;
+}
+
+.project-pics-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 button:hover {
   background: #2d3cbb;
   color: white;
@@ -480,17 +491,6 @@ button:hover {
   .project-pics {
     width: 100%;
     height: 100%;
-  }
-
-  .project-pics-1 {
-    width: 80%;
-    height: 80%;
-  }
-
-  .project-pics-2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   .mobile-pic {
